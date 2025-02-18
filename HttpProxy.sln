@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpProxyService", "HttpProxyService\HttpProxyService.csproj", "{1E3EE697-BD60-4076-9779-5A3A961BE3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PermissionMiddleware", "Sm2PermissionMiddleware\PermissionMiddleware.csproj", "{51B8B3D2-6E8F-4AA9-B113-FC4B476D7B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTypes", "CommonTypes\CommonTypes.csproj", "{2F6BB0DC-0925-4766-B105-9F0E26E52E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyInvokeMiddleware", "ProxyInvokeMiddleware\ProxyInvokeMiddleware.csproj", "{E6C59A54-311A-4FDC-B388-6FEB28635F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpProxyService.Jit", "HttpProxyService.Jit\HttpProxyService.Jit.csproj", "{0F03A438-D04B-4269-8BAF-03727A8942B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyImplement", "ProxyImplement\ProxyImplement.csproj", "{C07E6313-B3B9-4070-A10B-C41EBD900F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketHttpService", "SocketHttpService\SocketHttpService.csproj", "{D3657EB4-6DB3-4D49-BF97-0ED8F57DA744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpProxyAuthentication", "HttpProxyAuthentication\HttpProxyAuthentication.csproj", "{169F3F40-B6E8-46FB-877C-B47830598C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpProxyUtility", "HttpProxyUtility\HttpProxyUtility.csproj", "{BC78538C-2944-4575-977A-837E6FC3868A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{ADC38C22-DD44-47FE-A8F9-015F50F03FBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyCallTest", "ProxyCallTest\ProxyCallTest.csproj", "{45249D5A-DC02-4773-8FBC-59C0347CD354}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E3EE697-BD60-4076-9779-5A3A961BE3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3EE697-BD60-4076-9779-5A3A961BE3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3EE697-BD60-4076-9779-5A3A961BE3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3EE697-BD60-4076-9779-5A3A961BE3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B8B3D2-6E8F-4AA9-B113-FC4B476D7B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B8B3D2-6E8F-4AA9-B113-FC4B476D7B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B8B3D2-6E8F-4AA9-B113-FC4B476D7B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B8B3D2-6E8F-4AA9-B113-FC4B476D7B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6BB0DC-0925-4766-B105-9F0E26E52E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6BB0DC-0925-4766-B105-9F0E26E52E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6BB0DC-0925-4766-B105-9F0E26E52E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6BB0DC-0925-4766-B105-9F0E26E52E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6C59A54-311A-4FDC-B388-6FEB28635F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6C59A54-311A-4FDC-B388-6FEB28635F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6C59A54-311A-4FDC-B388-6FEB28635F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6C59A54-311A-4FDC-B388-6FEB28635F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F03A438-D04B-4269-8BAF-03727A8942B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F03A438-D04B-4269-8BAF-03727A8942B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F03A438-D04B-4269-8BAF-03727A8942B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F03A438-D04B-4269-8BAF-03727A8942B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07E6313-B3B9-4070-A10B-C41EBD900F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07E6313-B3B9-4070-A10B-C41EBD900F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07E6313-B3B9-4070-A10B-C41EBD900F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07E6313-B3B9-4070-A10B-C41EBD900F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3657EB4-6DB3-4D49-BF97-0ED8F57DA744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3657EB4-6DB3-4D49-BF97-0ED8F57DA744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3657EB4-6DB3-4D49-BF97-0ED8F57DA744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3657EB4-6DB3-4D49-BF97-0ED8F57DA744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{169F3F40-B6E8-46FB-877C-B47830598C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{169F3F40-B6E8-46FB-877C-B47830598C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{169F3F40-B6E8-46FB-877C-B47830598C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{169F3F40-B6E8-46FB-877C-B47830598C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC78538C-2944-4575-977A-837E6FC3868A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC78538C-2944-4575-977A-837E6FC3868A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC78538C-2944-4575-977A-837E6FC3868A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC78538C-2944-4575-977A-837E6FC3868A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45249D5A-DC02-4773-8FBC-59C0347CD354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45249D5A-DC02-4773-8FBC-59C0347CD354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45249D5A-DC02-4773-8FBC-59C0347CD354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45249D5A-DC02-4773-8FBC-59C0347CD354}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45249D5A-DC02-4773-8FBC-59C0347CD354} = {ADC38C22-DD44-47FE-A8F9-015F50F03FBD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://devops.develop.i56yun.com/tfs/%E5%BA%94%E7%94%A8%E4%BA%A7%E5%93%81
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HttpProxyService\\HttpProxyService.csproj
+		SccProjectName1 = HttpProxyService
+		SccLocalPath1 = HttpProxyService
+		SccProjectUniqueName2 = CommonTypes\\CommonTypes.csproj
+		SccProjectName2 = CommonTypes
+		SccLocalPath2 = CommonTypes
+		SccProjectUniqueName3 = ProxyInvokeMiddleware\\ProxyInvokeMiddleware.csproj
+		SccProjectName3 = ProxyInvokeMiddleware
+		SccLocalPath3 = ProxyInvokeMiddleware
+		SccProjectUniqueName4 = HttpProxyService.Jit\\HttpProxyService.Jit.csproj
+		SccProjectName4 = HttpProxyService.Jit
+		SccLocalPath4 = HttpProxyService.Jit
+		SccProjectUniqueName5 = ProxyImplement\\ProxyImplement.csproj
+		SccProjectName5 = ProxyImplement
+		SccLocalPath5 = ProxyImplement
+		SccProjectUniqueName6 = SocketHttpService\\SocketHttpService.csproj
+		SccProjectName6 = SocketHttpService
+		SccLocalPath6 = SocketHttpService
+		SccProjectUniqueName7 = HttpProxyAuthentication\\HttpProxyAuthentication.csproj
+		SccProjectName7 = HttpProxyAuthentication
+		SccLocalPath7 = HttpProxyAuthentication
+		SccProjectUniqueName8 = HttpProxyUtility\\HttpProxyUtility.csproj
+		SccProjectName8 = HttpProxyUtility
+		SccLocalPath8 = HttpProxyUtility
+		SccProjectUniqueName9 = ProxyCallTest\\ProxyCallTest.csproj
+		SccProjectTopLevelParentUniqueName9 = HttpProxy.sln
+		SccProjectName9 = ProxyCallTest
+		SccLocalPath9 = ProxyCallTest
+		SccProjectUniqueName10 = Sm2PermissionMiddleware\\PermissionMiddleware.csproj
+		SccProjectName10 = Sm2PermissionMiddleware
+		SccLocalPath10 = Sm2PermissionMiddleware
+	EndGlobalSection
+EndGlobal

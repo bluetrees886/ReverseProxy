@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\TFS\基础服务\反向代理\HttpProxy\HttpProxyService.Jit\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2025-01-13T14:40:40.1208502Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,11 @@
+@HttpProxyService_HostAddress = http://localhost:5098
+
+GET {{HttpProxyService_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{HttpProxyService_HostAddress}}/todos/1
+Accept: application/json
+
+###

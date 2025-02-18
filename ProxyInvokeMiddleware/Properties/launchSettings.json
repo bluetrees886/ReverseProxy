@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ProxyInvokeMiddleware": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:56951;http://localhost:56952"
+    }
+  }
+}

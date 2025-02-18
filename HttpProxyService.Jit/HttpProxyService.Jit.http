@@ -1,0 +1,6 @@
+@HttpProxyService.Jit_HostAddress = http://localhost:5090
+
+GET {{HttpProxyService.Jit_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
